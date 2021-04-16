@@ -4,11 +4,7 @@ let router = express.Router();
 let controllers = require("../controllers/index");
 /* GET home page. */
 router.get('/', function(req, res, next) {
-  controllers.displayHome(res);
-});
-
-router.get("/home", function (req, res, next) {
-  controllers.displayHome(res);
+  res.render('index', { title: 'Express' });
 });
 
 module.exports = router;

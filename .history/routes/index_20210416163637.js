@@ -7,8 +7,4 @@ router.get('/', function(req, res, next) {
   controllers.displayHome(res);
 });
 
-router.get("/home", function (req, res, next) {
-  controllers.displayHome(res);
-});
-
 module.exports = router;
