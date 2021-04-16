@@ -1,0 +1,23 @@
+<%- include ('partials/head') %>
+<%- include ('partials/header') %>
+<main class="container" id="mainContent">
+
+
+  <% if (title == 'Home') { %>
+    <%  include ('content/home') %>
+
+  <% } else if (title == 'About') { %>
+    <%  include ('content/about') %>
+
+  <% } else if (title == 'Projects') { %>
+    <%  include ('content/projects') %>
+
+  <% } else if (title == 'Services') { %>
+    <%  include ('content/services') %>
+    
+  <% } else if (title == 'Contact') { %>
+    <%  include ('content/contact') %>
+  <% } %>
+</main>
+
+<%- include ('partials/footer') %>
