@@ -1,0 +1,24 @@
+Web Design
+
+We have the ability to create interactive websites that will stand out and make you look professional.
+We can apply custom themes to style your website as well as make it an interactive website that is
+effeciently navigable.
+
+(INSERT WebDesign.png)
+
+
+Database Development
+
+We can create small to medium sized databases that will be able to meet your business needs. We can then
+implement the database into your website so that you can take your business to the next level.
+
+(INSERT DatabaseDevelopment.png)
+
+
+Custom Programming
+
+Our skills are extensive when it comes to programming and we can develop software implementing
+object-oriented programming languages such as C++ to create what you need. We've been programming
+for five years and anticipate to be professional software developers in the near future.
+
+(INSERT Programming.pnp)
