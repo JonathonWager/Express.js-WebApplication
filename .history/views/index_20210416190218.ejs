@@ -1,0 +1,28 @@
+<%- include ('partials/header') %>
+<main class="container" id="mainContent">
+
+  <% if (title == 'Home') { %>
+    <%- include ('content/home') %>
+    <% } %>
+  <% if (title == 'About') { %>
+    <%- include ('content/about') %>
+    <% } %>
+  <% if (title == 'Projects') { %>
+    <%- include ('content/projects') %>
+    <% } %>
+  <% if (title == 'Services') { %>
+    <%- include ('content/services') %>
+    <% } %>
+  <% if (title == 'Contact') { %>
+    <%- include ('content/contact') %>
+    <% } %>
+  <% if (title == 'Login') { %>
+    <%- include ('content/login') %>
+    <% } %>
+  <% if (title == 'Register') { %>
+    <%- include ('content/register1') %>
+    <% } %>
+
+</main>
+<%- include ('partials/scripts') %>
+<%- include ('partials/footer') %>
