@@ -12,8 +12,9 @@
         console.log("App Started...");
     }
     if (document.title == "Bussinesscontact") {
-        authGuard();
-      
+      document.getElementById("aboutButton").onclick = function () {
+        location.href = "about";
+      };
     }
     function ActiveLinkCallBack(activeLink)
     {

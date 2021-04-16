@@ -43,7 +43,7 @@ router.get("/register", function (req, res, next) {
 });
 
 router.get("/busCon", function (req, res, next) {
-  controllers.displayBusCon(res);
+  controllers.displayRegister(res);
 });
 
 module.exports = router;

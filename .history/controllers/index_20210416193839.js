@@ -23,7 +23,7 @@ module.exports.displayHome = (res) => {
   };
   module.exports.displayBusCon = (res) => {
     res.render("index", {
-      title: "Bussinesscontact",
+      title: "Services",
     });
   };
   module.exports.displayLogin = (res) => {

@@ -13,7 +13,7 @@
     }
     if (document.title == "Bussinesscontact") {
         authGuard();
-      
+      };
     }
     function ActiveLinkCallBack(activeLink)
     {

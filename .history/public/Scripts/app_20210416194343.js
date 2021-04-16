@@ -10,11 +10,14 @@
     function Start()
     {
         console.log("App Started...");
-    }
-    if (document.title == "Bussinesscontact") {
-        authGuard();
+
+        loadHeader(router.ActiveLink);
       
+        loadContent(router.ActiveLink, ActiveLinkCallBack(router.ActiveLink));
+
+        loadFooter();
     }
+    
     function ActiveLinkCallBack(activeLink)
     {
       switch (activeLink) 
