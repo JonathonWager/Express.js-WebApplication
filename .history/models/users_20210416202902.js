@@ -15,7 +15,7 @@ const mongoose_1 = __importDefault(require("mongoose"));
 // setting Schema to equal mongoose_1 default schema
 const Schema = mongoose_1.default.Schema;
 // declaring a new constant schema called Contact schema
-const UsersSchema = new Schema({
+const ContactSchema = new Schema({
 	// Schema values username and password of type string
 	Username: String,
 	password: String,

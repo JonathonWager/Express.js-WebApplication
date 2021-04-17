@@ -10,13 +10,13 @@ module.exports.displayHome = (res) => {
       title: "Home",
     });
   };
-  //Sets the title to About
+  //Sets the title to Home
   module.exports.displayAbout = (res) => {
     res.render("index", {
       title: "About",
     });
   };
-  //Sets the title to Projects
+  //Sets the title to Home
   module.exports.displayProjects = (res) => {
     res.render("index", {
       title: "Projects",
